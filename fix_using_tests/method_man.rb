@@ -5,7 +5,7 @@ def start_game(player1, player2)
 end
 
 def play_game(player2)
-  print "#{player1} is better than #{player2}"
+  p "#{player1} is better than #{player2}"
   binding.pry
   put "test"
 end
